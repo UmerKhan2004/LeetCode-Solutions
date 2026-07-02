@@ -11,5 +11,25 @@ public class Main {
         System.out.println(Arrays.Hashing.containsDuplicate(nums));
 
         System.out.println(PivotIndex.Solve(nums));
+
+
+
+        int[] num ={1,2,3,4,5};
+        int n=num.length;
+        int[] Prefix = new int[n];
+
+        Prefix[0] = num[0];
+
+        for(int i=1;i<n;i++) {
+            Prefix[i] = Prefix[i - 1] + num[i];
         }
+        System.out.println(RangeSum.solve(Prefix,1,3));
+
+
+
+        Subarray_Sum_Equals_K.solve();
+
+
+
     }
+}
