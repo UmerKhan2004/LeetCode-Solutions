@@ -1,5 +1,5 @@
 public class Valide_palindrome {
-    public boolean solve(String s){
+    public static boolean solve(String s){
                 s = s.toLowerCase().replaceAll("[^a-z0-9]", "");
 
                 int left = 0;

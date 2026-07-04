@@ -29,6 +29,9 @@ public class Main {
 
         Subarray_Sums_Divisible_by_K.solve();
 
+        String s = "Madam";
+        boolean solve = Valide_palindrome.solve( s);
+        System.out.println(solve);
 
     }
 }
