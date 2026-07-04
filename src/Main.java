@@ -17,9 +17,7 @@ public class Main {
         int[] num ={1,2,3,4,5};
         int n=num.length;
         int[] Prefix = new int[n];
-
         Prefix[0] = num[0];
-
         for(int i=1;i<n;i++) {
             Prefix[i] = Prefix[i - 1] + num[i];
         }
@@ -29,6 +27,7 @@ public class Main {
 
         Subarray_Sum_Equals_K.solve();
 
+        Subarray_Sums_Divisible_by_K.solve();
 
 
     }
