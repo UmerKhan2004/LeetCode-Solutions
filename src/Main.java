@@ -33,5 +33,8 @@ public class Main {
         boolean solve = Valide_palindrome.solve( s);
         System.out.println(solve);
 
+
+        RemoveDuplicateSA.solvee();
+
     }
 }
