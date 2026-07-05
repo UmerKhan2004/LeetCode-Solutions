@@ -1,14 +1,16 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        Arrays.TwoSum.solve();
-        Arrays.BestTimetoBuyandSellStock.Solve();
+//        Arrays.TwoSum.solve();
+//        Arrays.BestTimetoBuyandSellStock.Solve();
         MoveZeroes.solve();
         MAjorityElement.solve();
         productExceptSelf.solve();
         RotateArray.solve();
 
         int[] nums={1,7,3,6,5,6};
-        System.out.println(Arrays.Hashing.containsDuplicate(nums));
+//        System.out.println(Hashing.containsDuplicate(nums));
 
         System.out.println(PivotIndex.Solve(nums));
 
@@ -35,6 +37,8 @@ public class Main {
 
 
         RemoveDuplicateSA.solvee();
+
+        System.out.println(Arrays.toString(Two_Sum_II_Input_Array_Is_Sorted.solve()));
 
     }
 }
