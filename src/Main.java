@@ -40,5 +40,9 @@ public class Main {
 
         System.out.println(Arrays.toString(Two_Sum_II_Input_Array_Is_Sorted.solve()));
 
+        System.out.println(Sum3.solve());
+
+        int res = Container_With_Most_Water.solve();
+        System.out.println(res);
     }
 }
