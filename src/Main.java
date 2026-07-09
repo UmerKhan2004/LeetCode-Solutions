@@ -53,5 +53,7 @@ public class Main {
         FizzBuzz.solve();
 
         SortColors.solve();
+
+        TrappingRainWater.solve();
     }
 }
