@@ -51,5 +51,7 @@ public class Main {
 
 
         FizzBuzz.solve();
+
+        SortColors.solve();
     }
 }
