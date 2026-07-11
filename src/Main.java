@@ -57,5 +57,11 @@ public class Main {
         TrappingRainWater.solve();
 
         MinimumSize_SubarraySum.solve();
+
+
+        String s1 = "AABABBA";
+        int k = 1;
+        System.out.println(Longest_Repeating_Character_Replacement.solve(s1,k));
+
     }
 }
