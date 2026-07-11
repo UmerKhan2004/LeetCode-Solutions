@@ -55,5 +55,7 @@ public class Main {
         SortColors.solve();
 
         TrappingRainWater.solve();
+
+        MinimumSize_SubarraySum.solve();
     }
 }
