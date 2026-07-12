@@ -63,5 +63,8 @@ public class Main {
         int k = 1;
         System.out.println(Longest_Repeating_Character_Replacement.solve(s1,k));
 
+        ReduceToZero.solve();
+
+        System.out.println(PalindromeNumber.solve());
     }
 }
