@@ -68,5 +68,7 @@ public class Main {
         System.out.println(PalindromeNumber.solve());
 
         RunningSum_of_Array.solve();
+
+        OneDArray_to_2DArray.solve();
     }
 }
