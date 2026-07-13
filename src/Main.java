@@ -66,5 +66,7 @@ public class Main {
         ReduceToZero.solve();
 
         System.out.println(PalindromeNumber.solve());
+
+        RunningSum_of_Array.solve();
     }
 }
