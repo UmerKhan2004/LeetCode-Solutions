@@ -72,5 +72,7 @@ public class Main {
         OneDArray_to_2DArray.solve();
 
         BinarySearch.solve();
+
+        FirstLast_PositionIn_Array.solve();
     }
 }
