@@ -70,5 +70,7 @@ public class Main {
         RunningSum_of_Array.solve();
 
         OneDArray_to_2DArray.solve();
+
+        BinarySearch.solve();
     }
 }
