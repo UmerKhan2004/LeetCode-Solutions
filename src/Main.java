@@ -76,5 +76,7 @@ public class Main {
         FirstLast_PositionIn_Array.solve();
 
         Min_rotatedSortedArray.solve();
+
+        System.out.println(Fabonacci.solve(6));
     }
 }
