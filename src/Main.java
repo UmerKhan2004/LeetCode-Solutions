@@ -74,5 +74,7 @@ public class Main {
         BinarySearch.solve();
 
         FirstLast_PositionIn_Array.solve();
+
+        Min_rotatedSortedArray.solve();
     }
 }
